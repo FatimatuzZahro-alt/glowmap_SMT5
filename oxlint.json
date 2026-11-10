@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/crates/oxc_linter/src/rules.rs",
   "rules": {
@@ -8,3 +9,15 @@
     "node": true
   }
 }
+=======
+{
+  "$schema": "https://raw.githubusercontent.com/oxc-project/oxc/main/crates/oxc_linter/src/rules.rs",
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-floating-promises": "warn"
+  },
+  "env": {
+    "node": true
+  }
+}
+>>>>>>> fb42be4f45b61c9188ba91b6051eba7602ea84a4
